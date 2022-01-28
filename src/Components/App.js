@@ -4,10 +4,7 @@ import Notification from './Notification';
 import Statistics from './Statistics';
 import Section from './Section';
 
-// const initialState = { good: 0, neutral: 0, bad: 0 };
-
 const App = () => {
-  // const [state, setState] = useState(initialState);
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
